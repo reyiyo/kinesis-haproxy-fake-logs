@@ -1,0 +1,30 @@
+{
+  "name": "kinesis-haproxy-fake-logs",
+  "version": "1.0.0",
+  "description": "Generate fake haproxy logs and stream them to Amazon Kinesis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reyiyo/haproxy-log-generator"
+  },
+  "keywords": [
+    "haproxy",
+    "logs",
+    "fake",
+    "generate",
+    "kinesis"
+  ],
+  "author": {
+    "name": "Sergio Orbe",
+    "email": "reyiyo@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "aws-sdk": "^2.149.0",
+    "haproxy-log-generator": "^1.0.0"
+  }
+}
